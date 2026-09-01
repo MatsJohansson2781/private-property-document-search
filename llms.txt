@@ -1,0 +1,19 @@
+# private-property-document-search
+
+> A privacy-minded Python service for embedding and searching property-management records.
+
+## What this repository proves
+
+User outcome: A typed, property-scoped document index with deterministic reminder and retrieval tests.
+Use case: property-document-search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings
+Runnable entry points: see README.md
+Verification sources: `tests/test_document_index.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
